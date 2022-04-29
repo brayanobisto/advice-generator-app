@@ -18,9 +18,9 @@ function AdviceCard() {
 
   return (
     <div className="bg-darkGrayishBlue shadow-lg rounded-xl flex flex-col items-center px-6 relative mobile:max-w-[350px] mobile:w-[350px] desktop:max-w-xl">
-      <span className="uppercase text-neonGreen mt-12 mb-8 tracking-[0.2rem] text-xs">
+      <h1 className="uppercase text-neonGreen mt-12 mb-8 tracking-[0.2rem] text-xs">
         Advice #{advice.id}
-      </span>
+      </h1>
       <q className="text-center text-lightCyan text-[28px] mb-16 mobile:mb-6 desktop:mb-8">
         {advice.advice}
       </q>
@@ -56,6 +56,7 @@ function AdviceCard() {
       </svg>
 
       <button
+        aria-label="Refresh Advice"
         onClick={getAdvice}
         type="button"
         className="bg-neonGreen h-16 w-16 flex overflow-hidden rounded-full absolute -bottom-8 left-1/2 -translate-x-1/2 cursor-pointer hover:shadow-[0px_0px_25px_0px] hover:shadow-neonGreen transition-all ease-in-out duration-300"
