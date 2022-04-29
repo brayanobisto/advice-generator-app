@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click here](https://your-solution-url.com)
-- Live Site: [Click here](https://your-live-site-url.com)
+- Solution URL: [Click here](https://www.frontendmentor.io/solutions/advice-generator-app-with-react-and-tailwind-css-HJzDF19rc)
+- Live Site: [Click here](https://brayanobisto.github.io/advice-generator-app/)
 
 ## My process
 
